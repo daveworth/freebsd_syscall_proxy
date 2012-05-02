@@ -1,0 +1,18 @@
+syscall_server
+--------------
+
+change sendbyte->sendbytes by looping after sending length.
+  NOTE: getting the stack pointer will require longer reads in the client
+
+syscall_client
+--------------
+build as library ??
+
+syscalls to implement
+---------------------
+read
+rename
+chown
+fchmod
+fchown
+stat
